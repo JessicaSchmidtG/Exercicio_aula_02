@@ -1,0 +1,89 @@
+body{
+    background: rgb(218,214,220);
+    background: linear-gradient(90deg, rgba(218,214,220,1) 0%, rgba(223,219,223,1) 100%);
+}
+
+h1{
+    color:black;
+    font-size: 35px;
+}
+
+.descricao{
+    color: black;
+    font-size: 15px;
+    width: 100%;
+    text-align: left;
+}
+
+.tabela{
+    color:black;
+    font-size: 20px; 
+    width: 100%;
+    text-align: center;
+}
+
+.lista{
+    color:black;
+    font-size: 20px; 
+    width: 100%;
+    text-align: center;
+}
+
+.contato{
+    color:black;
+    font-size: 20px; 
+    width: 100%;
+    text-align: center;
+}
+
+tr{
+    color:rgb(104,100,100);
+    font-size: 17px;
+    width: 100%;
+    text-align: center;
+}
+th{
+    color:black;
+    font-size: 17px;
+    font-style: italic;
+}
+td{
+    color:rgb(104,100,100);
+    font-size: 17px;
+    font-style: italic;
+}
+
+footer{
+    color:rgb(93, 87, 87);
+    font-size: 15px; 
+    font-style: italic;
+    width: 100%;
+    text-align:left;
+}
+ul{
+    color:rgb(93, 87, 87);
+    font-size: 15px; 
+    font-style: italic;
+    width: 100%;
+    text-align: left;
+}
+
+table{
+    width: 100%;
+    text-align: center;
+}
+
+.container{
+    border:2px solid white;
+    border-radius: 1rem;
+    margin: 4rem;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.174);
+}
+img{
+    border: 2px solid grey;
+    border-radius: 1rem;
+    margin-left: 50rem;
+    position: relative;
+
+}
