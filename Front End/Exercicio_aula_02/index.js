@@ -1,8 +1,9 @@
-let botao = document.getElementById("noturno");
-let container = document.querySelector('.container');
-let tabela = document.querySelector('.tabela');
+let botao = document.getElementById("on");
+let container = document.querySelector(".container");
+let body = document.querySelector("#body");
+
 
 botao.addEventListener("click",() =>{
     container.classList.toggle("noturno");
-    tabela.classList.toggle("tabelaNot")
+    body.classList.toggle("noturno")
  });

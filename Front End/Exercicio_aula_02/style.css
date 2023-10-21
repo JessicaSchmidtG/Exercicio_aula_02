@@ -2,14 +2,19 @@ body {
     background: rgb(218, 214, 220);
     background: linear-gradient(90deg, rgb(202, 250, 250) 0%, rgb(48, 215, 215) 100%);
 }
-
+button{
+    width: 5%;
+    border-style:groove;
+    border: 2px solid white;
+    border-radius: 5rem;
+}
 .container {
     display: grid;
     border: 2px solid white;
     border-radius: 1rem;
     margin: 4rem;
     padding: 1rem;
-    background-color: rgba(255, 255, 255, 0.174);
+    /* background-color: rgba(255, 255, 255, 0.174); */
     justify-content: center;
 } 
 .cabecalho{
@@ -58,7 +63,17 @@ tr,th,td{
     border-radius: 1rem;
     background: rgb(218, 214, 220);
     background: linear-gradient(90deg, rgb(202, 250, 250) 0%, rgb(100, 242, 242) 100%);
+} 
+
+ /* th{
+    background: rgb(218, 214, 220);
+    background: linear-gradient(90deg, rgb(202, 250, 250) 0%, rgb(100, 242, 242) 100%);
 }
+td{
+    background: rgb(218, 214, 220);
+    background: linear-gradient(90deg, rgb(202, 250, 250) 0%, rgb(100, 242, 242) 100%);
+}  */
+
 ul{
     align-items: center;
     width: 90%;
@@ -185,123 +200,32 @@ footer{
     }
 }
 
+
 .noturno {
     background-color: #000;
     color: #fff;
 }
-.tabelaNot{
-    background-color: #000;
-    color: #fff;
+
+.noturno body {
+    background: #767373;
+    background: linear-gradient(90deg, rgb(249, 249, 249) 0%, rgb(99, 99, 99) 100%);
 }
 
+.noturno tr, .noturno th, .noturno td {
+    background: #767373;
+    background: linear-gradient(90deg, rgb(249, 249, 249) 0%, rgb(99, 99, 99) 100%);
+}
 
-/* 
-@media screen and (max-width: 1080px){
-    body {
-        background: rgb(218, 214, 220);
-        background: linear-gradient(90deg, rgb(202, 250, 250) 0%, rgb(48, 215, 215) 100%);
-    }
-    
-    .container {
-        margin: 3rem;
-        padding: 1rem;
-    } 
-     .cabecalho{
-        display: grid;
-        align-items: center;
-        width: 80%;
-        display: grid;
-        grid-template-columns:auto; 
-        font-size: 17px;
-    }
-    img{
-        width: 30%;
-        border: 2px solid white;
-        border-radius: 2rem;
-        margin-left: 12rem;
-        margin-top: 1rem;
-    }
-    #descricao{
-        text-align:center;
-        align-items: center;
-        margin-top: 1rem;
-        margin-left: 2.5rem;
-        width: 80%;
-        padding: 0.5rem;
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 20px;
-    }
-    h2{
-        text-align: center;
-        width: 80%;
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 20px;
-        margin-top: 1rem;
-        margin-left: 1rem;
-        margin-block-end: 1rem;
-    }
-    
-    tr,th,td{
-        width: -3%;
-        font-size: 15px;
-        text-align:center;
-        justify-content: center;
-        font-style: italic;
-        padding: 0.5rem;
-        border-radius: 1rem; 
-        background: rgb(218, 214, 220);
-        background: linear-gradient(90deg, rgb(202, 250, 250) 0%, rgb(100, 242, 242) 100%); 
-    }
-    ul{
-        align-items: center;
-        width: 85%;
-        padding: 1rem;
-        text-align: center;
-        margin-left: 2rem;
-        margin-block-end: 1rem;
-        display:grid;
-        border-radius: 1rem;
-        background: rgb(218, 214, 220);
-        background: linear-gradient(90deg, rgb(202, 250, 250) 0%, rgb(100, 242, 242) 100%);
-    }
-    li{
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 17px;
-    }
-    #curso{
-        margin-top: 1rem;
-        margin-block-end: 1rem;
-    }
-    #contato{
-        margin-top: 1rem;
-        margin-block-end: 1rem;
-    }
-    footer{
-        align-items: center;
-        width: 85%;
-        padding: 1rem;
-        text-align: left;
-        margin-left: 2rem;
-        margin-top: 1rem;
-        display:grid;
-        border-radius: 1rem;
-        background: rgb(218, 214, 220);
-        background: linear-gradient(90deg, rgb(202, 250, 250) 0%, rgb(100, 242, 242) 100%);
-    }        
-    .Whats {
-        width: 3rem;
-        position: fixed;
-        bottom: 30px;
-        right: 20px
-    }
+.noturno ul{
+    background: #767373;
+    background: linear-gradient(90deg, rgb(99, 99, 99) 0%, rgb(249, 249, 249) 100%);
+}
 
-    .Whats:hover {
-        width: 4rem;
-        position: fixed;
-        bottom: 30px;
-        right: 20px
-    }
-} */
+.noturno footer{
+    background: #767373;
+    background: linear-gradient(90deg, rgb(99, 99, 99) 0%, rgb(249, 249, 249) 100%);
+}
+
 
 @media screen and (max-width: 480px){
     body {
